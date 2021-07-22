@@ -12,10 +12,20 @@
     <div class="container">
       <h1>Acme Numbers and Events</h1>
       <p>click the button!</p>
-      <input type="button" id="main-button" value="Generate Number  +">
-      <div class="wrapper">
-        <div class="circle" id="bottom">&nbsp;</div>
-        <div class="circle" id="top">&nbsp;</div>
+      <button id="main-button">Generate Number<span>&nbsp; </span></button>
+      <!-- <input type="button" id="main-button" value="Generate Number  +"> -->
+      <div id="average-container">
+        <p>Current Average:</p>
+        <p id="average">&nbsp;</p>
+      </div>
+      
+      <div class="number-container">
+        <ul id="number-list">
+          &nbsp;
+        </ul>
+      </div>
+      <div id="reset">
+        Reset
       </div>
     </div>
   </div>
